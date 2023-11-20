@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="bg-white px-6 ">
+    <div class="flex h-16 items-center justify-between">
+      <div class="flex items-center gap-x-4">
+        <div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 6.001H21M3 12.001H21M3 18.001H21" stroke="#AAAAAA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="text-blue font-bold text-xl">Opendoor</div>
+      </div>
+      <div>
+      <div>
+        <div class="flex space-x-4">
+          <a href="#" class="text-blackish hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-light">Sell</a>
+          <a href="#" class="text-blackish hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-light">Buy</a>
+          <a href="#" class="text-blackish hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-light">Finance</a>
+        </div>
+      </div>
+      </div>
+      <div class="pr-2">
+        <button type="button" class="rounded-full bg-white p-1 text-gray-400 focus:outline-none ">
+          <div class="text-blue font-medium">Sign in</div>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- banner -->
+  <section class="w-screen h-screen">
+    <div class="bg-banner bg-cover min-h-[500px] mx-4 rounded-4xl rounded-bl-8xl"> 
+      <div class="flex flex-col h-full w-2/4 ml-32 ">
+        <div class="text-title font-medium mt-32 leading-15">Sell you house in Los Angeles from the comfort of your couch</div>
+        <!-- input -->
+        <div class="border-blackish bg-white rounded-xl w-full h-16 flex items-center justify-between pr-3 pl-5 mt-8">
+          <div class="text-grayish">
+            Enter your home address
+          </div>
+          <!-- Free offer -->
+          <button class="border-blackish bg-blue rounded-md min-h-[42px] w-1/4 flex items-center justify-center text-white font-medium ">
+            Get my free offer
+          </button>    
+        </div>
+        <div class="pt-3 font-light text-blackish">Focus on buying your next home, not selling your current one</div>
+      </div>
+    </div>
+    
+    <!-- Cards -->
+    <div class="grid grid-cols-3 m-28">
+      <div class="font-semibold w-3/4 text-6xl"> 
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14 9.846C13 8.923 10.333 8.616 10.333 10.462C10.333 12.308 14 11.385 14 13.23C14 15.075 11 15.076 10 13.845M12 14.702V16M12 9.113V8M2 8L11.732 3.134C11.8152 3.09245 11.907 3.07082 12 3.07082C12.093 3.07082 12.1848 3.09245 12.268 3.134L22 8" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M20 11V19C20 19.5304 19.7893 20.0391 19.4142 20.4142C19.0391 20.7893 18.5304 21 18 21H6C5.46957 21 4.96086 20.7893 4.58579 20.4142C4.21071 20.0391 4 19.5304 4 19V11" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg> Competitive cash offer 
+        <div class="font-normal pt-2 text-sm "> 
+          Get a free offer in 24 hours with no risk of financing fall-through</div>
+        </div>
+
+        <div class="font-semibold w-3/4 ">
+          <svg width="24" height="24" viewBox="0 0 116 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M92.4375 80.1974V48.9219H65.25V80.1974H92.4375ZM72.5 55.2344H85.1875V73.8849H72.5V55.2344Z" fill="black"/>
+            <path d="M61.4161 6.65752C59.9533 5.48573 58.0269 4.85164 56.0396 4.88782C54.0523 4.92399 52.158 5.62763 50.7527 6.85163L7.25 44.729V97.8438H32.625V66.2813H47.125V97.8438H108.75V44.5737L61.4161 6.65752ZM101.5 91.5313H54.375V59.9688H25.375V91.5313H14.5V47.3438L56.5074 11.3144V11.3033L101.5 47.3438V91.5313Z" fill="black"/>
+          </svg> Convenient home sale
+          <div class="font-normal pt-2">Sell your home without listing, showings and upfront costs </div>
+        </div>
+        <div class="font-semibold"> 
+          <svg width="24" height="24" viewBox="0 0 87 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M76.125 38.7891C77.8242 39.8568 79.3394 41.0677 80.6704 42.4219C82.0015 43.776 83.1484 45.2604 84.1113 46.875C85.0742 48.4896 85.7822 50.1953 86.2354 51.9922C86.6885 53.7891 86.9434 55.625 87 57.5C87 60.599 86.3628 63.5156 85.0884 66.25C83.814 68.9844 82.0581 71.3672 79.8208 73.3984C77.5835 75.4297 74.9922 77.0312 72.0469 78.2031C69.1016 79.375 65.9297 79.974 62.5312 80C59.9541 80 57.4619 79.6484 55.0547 78.9453C52.6475 78.2422 50.4385 77.2266 48.4277 75.8984C46.417 74.5703 44.6328 72.9818 43.0752 71.1328C41.5176 69.2839 40.314 67.2396 39.4644 65H5.4375V5H16.3125V0H21.75V5H59.8125V0H65.25V5H76.125V38.7891ZM10.875 10V20H70.6875V10H65.25V15H59.8125V10H21.75V15H16.3125V10H10.875ZM38.1899 60C38.105 59.1927 38.0625 58.3594 38.0625 57.5C38.0625 55.2604 38.4023 53.0859 39.082 50.9766C39.7617 48.8672 40.7954 46.875 42.1831 45H38.0625V40H43.5V43.3594C44.6611 42.0312 45.9497 40.8594 47.3657 39.8438C48.7817 38.8281 50.311 37.9557 51.9536 37.2266C53.5962 36.4974 55.3096 35.9505 57.0938 35.5859C58.8779 35.2214 60.6904 35.026 62.5312 35C65.3633 35 68.082 35.4297 70.6875 36.2891V25H10.875V60H38.1899ZM62.5312 75C65.165 75 67.6289 74.5443 69.9229 73.6328C72.2168 72.7214 74.2275 71.4714 75.9551 69.8828C77.6826 68.2943 79.042 66.4453 80.0332 64.3359C81.0244 62.2266 81.5342 59.9479 81.5625 57.5C81.5625 55.0781 81.0669 52.8125 80.0757 50.7031C79.0845 48.5938 77.7251 46.7448 75.9976 45.1562C74.27 43.5677 72.2593 42.3177 69.9653 41.4062C67.6714 40.4948 65.1934 40.026 62.5312 40C59.8975 40 57.4336 40.4557 55.1396 41.3672C52.8457 42.2786 50.835 43.5286 49.1074 45.1172C47.3799 46.7057 46.0205 48.5547 45.0293 50.6641C44.0381 52.7734 43.5283 55.0521 43.5 57.5C43.5 59.9219 43.9956 62.1875 44.9868 64.2969C45.978 66.4062 47.3374 68.2552 49.0649 69.8438C50.7925 71.4323 52.8032 72.6823 55.0972 73.5938C57.3911 74.5052 59.8691 74.974 62.5312 75ZM65.25 55H73.4062V60H59.8125V45H65.25V55ZM16.3125 40H21.75V45H16.3125V40ZM27.1875 40H32.625V45H27.1875V40ZM27.1875 30H32.625V35H27.1875V30ZM16.3125 50H21.75V55H16.3125V50ZM27.1875 50H32.625V55H27.1875V50ZM43.5 35H38.0625V30H43.5V35ZM54.375 35H48.9375V30H54.375V35ZM65.25 35H59.8125V30H65.25V35Z" fill="black"/>
+          </svg>
+          Move on your timeline
+          <div class="font-normal pt-2">Complete flexibility and control of your moving timeline</div> 
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+</body>
+</html>
